@@ -24,7 +24,6 @@ const router = createBrowserRouter([
         index: true, element: <Index/>
       },
       {
-        
         path:"tasks/:id",
         element: <Task />,
         loader: taskLoader,
